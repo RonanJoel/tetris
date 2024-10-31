@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tetris</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Tetris</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Tetris</h1>
-  <div class="tetris-container">
-    <div id="game-board"></div>
-    <div id="score">Puntuación: 0</div>
-  </div>
-  <script src="script.js"></script>
+    <h1>Tetris</h1>
+    <div class="tetris-container">
+        <canvas id="tetris" width="300" height="600"></canvas>
+        <div class="score-container">
+            <p>Puntuación: <span id="score">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
